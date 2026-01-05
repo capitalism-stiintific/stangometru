@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { useLocation, Link } from "react-router-dom"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -55,6 +56,10 @@ function getResultForScore(score: number, results: Result[]): Result | null {
 export function ResultsPage() {
     const location = useLocation()
     const state = location.state as ResultsLocationState | null
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     if (!state) {
         return (

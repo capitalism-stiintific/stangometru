@@ -15,7 +15,7 @@ export function MainPage() {
                         />
                     </div>
                     <CardTitle className="text-3xl font-bold">
-                        Bun venit la Testul Stangometrului
+                        Bun venit la Testul Stângometrului
                     </CardTitle>
                     <CardDescription className="text-lg">
                     Toți suntem stângiști, dar nu toți stângiștii sunt creați egal. Demonstrează-ți superioritatea ideologică și fă-ți clubul de lectură să pară moderat cu testul Stângometrului.

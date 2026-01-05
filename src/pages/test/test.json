@@ -100,16 +100,36 @@
         {
             "type": "single-choice",
             "photo": "Twitch.png",
-            "question": "Care este definitia stangii politice?",
+            "question": "Care este originea stangii politice?",
             "explanation": "Nu trebuie sa detaliez",
             "responses": [
                 {
-                    "text": "În pofida obiecțiilor formulate de curentele revizioniste ale istoriografiei recente, emergența stângii contemporane este plasată în anul 2020, odată cu apariția mișcării militante Team Prieteni. Momentele fondatoare ale acestei paradigme politico-ideologice includ cristalizarea nucleului doctrinar SENS, tentativa de penetrare a aparatului instituțional burghez prin candidatura tovarășei Ana Ciceală, precum și episodul de confruntare anti-burgheză din decembrie 2025, purtat de formațiunile de tip gherilă ale colectivului Declic. La acestea se adaugă acumularea de capital cultural demonstrată de performanțele notabile ale băieților PLM la examenul de bacalaureat, precum și momentul de consacrare dialectică reprezentat de adjudecarea Consiliului Județean Buzău de către Marcel Ciolacu.",
-                    "value": 5
-                },
-                {
                     "text": "Stânga politică este unul din cei doi termeni antitetici, stânga și dreapta, prin care, de la Revoluția Franceză, este desemnată contradicția dintre ideologia și mișcările în care este scindat domeniul politic, atât în planul practic, al acțiunii, cât și în cel al teoriei. Termenii de Stânga și Dreapta au fost inventați în timpul Revoluției Franceze, referindu-se la așezarea persoanelor în cadrul adunărilor Stărilor Generale. ",
                     "value": -5
+                },
+                {
+                    "text": "În pofida obiecțiilor formulate de curentele revizioniste ale istoriografiei recente, emergența stângii contemporane este plasată în anul 2020, odată cu apariția mișcării militante Team Prieteni. Momentele fondatoare ale acestei paradigme politico-ideologice includ cristalizarea nucleului doctrinar SENS, tentativa de penetrare a aparatului instituțional burghez prin candidatura tovarășei Ana Ciceală, precum și episodul de confruntare anti-burgheză din decembrie 2025, purtat de formațiunile de tip gherilă ale colectivului Declic. La acestea se adaugă acumularea de capital cultural demonstrată de performanțele notabile ale băieților PLM la examenul de bacalaureat, precum și momentul de consacrare dialectică reprezentat de adjudecarea Consiliului Județean Buzău de către Marcel Ciolacu.",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Phone.png",
+            "question": "Stii teoria telefonului?",
+            "explanation": "NU vreau sa detaliez",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": 0
+                },
+                {
+                    "text": "Nu",
+                    "value": -5
+                },
+                {
+                    "text": "Nu avem o teorie a telefonului",
+                    "value": 10
                 }
             ]
         }

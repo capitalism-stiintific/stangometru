@@ -1,6 +1,6 @@
 export default function Stangometru({ score }: { score: number }) {
     const min = -100
-    const max = 400
+    const max = 350
     const range = max - min
     const scorePosition = ((score - min) / range) * 100
     
@@ -26,7 +26,7 @@ export default function Stangometru({ score }: { score: number }) {
                 </div>
                 
                 {/* Tick marks and labels */}
-                {[-100, -50, 0, 50, 100, 150, 200, 250, 300, 350, 400].map((value) => {
+                {[-100, -50, 0, 50, 100, 150, 200, 250, 300, 350].map((value) => {
                     const position = ((value - min) / range) * 100
                     const cmValue = value / 10
                     return (
@@ -37,7 +37,7 @@ export default function Stangometru({ score }: { score: number }) {
                         >
                             <div className="w-0.5 h-3 bg-foreground/50" />
                             <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 text-xs text-muted-foreground whitespace-nowrap">
-                                {cmValue > 0 ? `+${cmValue}` : cmValue} cm
+                                {cmValue > 0 ? `+${cmValue}` : cmValue}
                             </div>
                         </div>
                     )
