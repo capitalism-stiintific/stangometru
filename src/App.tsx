@@ -6,7 +6,7 @@ import { ResultsPage } from "@/pages/results/results"
 
 export function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/stangometru">
             <Routes>
                 <Route path="/" element={<MainPage />} />
                 <Route path="/test" element={<TestPage />} />
