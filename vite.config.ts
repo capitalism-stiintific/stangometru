@@ -6,7 +6,7 @@ import { defineConfig } from "vite"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/<repo-name>/",
+  base: "/stangometru/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
