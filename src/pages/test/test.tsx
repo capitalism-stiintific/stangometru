@@ -101,7 +101,7 @@ export function TestPage() {
                                 {question.photo && (
                                     <div className="flex justify-center">
                                         <img
-                                            src={"/images/questions/" + question.photo}
+                                            src={"/stangometru/images/questions/" + question.photo}
                                             alt={question.question}
                                             className="max-w-48 w-full h-auto object-contain rounded-lg"
                                         />

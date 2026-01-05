@@ -102,7 +102,7 @@ export function ResultsPage() {
                                 {result.image && (
                                     <div className="flex justify-center">
                                         <img 
-                                            src={"/images/results/" + result.image} 
+                                            src={"/stangometru/images/results/" + result.image} 
                                             alt={result.text}
                                             className="max-w-48 w-full h-auto object-contain"
                                         />
@@ -147,7 +147,7 @@ export function ResultsPage() {
                 <div className="flex gap-4 items-center">
                     {question.photo && (
                         <img 
-                            src={"/images/" + question.photo} 
+                            src={"/stangometru/images/questions/" + question.photo} 
                             alt={question.question}
                             className="max-w-24 w-full h-auto object-contain rounded-lg shrink-0"
                         />
