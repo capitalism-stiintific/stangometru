@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "threshold": -60,
+            "text": "Esti reactionar, contra revolutionar....",
+            "image": "small.png"
+        },
+        {
+            "threshold": -30,
+            "text": "Suparator",
+            "image": "fail.png"
+        },
+        {
+            "threshold": 10,
+            "text": "Dezamagitor",
+            "image": "embarrassed.png"
+        },
+        {
+            "threshold": 30,
+            "text": "Slabut",
+            "image": "sad.png"
+        },
+        {
+            "threshold": 60,
+            "text": "Cam nasol",
+            "image": "magnifying_glass.png"
+        },
+        {
+            "threshold": 90,
+            "text": "Mica mica dar ridica",
+            "image": "flex.png"
+        }
+    ]
+}

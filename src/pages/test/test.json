@@ -1,0 +1,101 @@
+{
+    "questions": [
+        {
+            "type": "single-choice",
+            "photo": "Theory.png",
+            "question": "Ai citit teorie?",
+            "explanation": "Cititul este profund reactionar, take-urile politice se iau de pe twitch.tv",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": -10
+                },
+                {
+                    "text": "Nu, dar am opinii foarte ferme",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Toothbrush.png",
+            "question": "De cate ori ai folosit periuta de dinti comunala in ultima saptamana?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Am propria periuta de dinti",
+                    "value": -10
+                },
+                {
+                    "text": "De 14 ori pentru ca nu o impart",
+                    "value": -15
+                },
+                {
+                    "text": "Niciodata pentru ca nu ajunge la mine (sunt Liviu Dragnea)",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Khazziro.png",
+            "question": "Ai aceasta freza?",
+            "explanation": "Aceasta este singura freza permisa in Coreea de Nord. Orice alta freza este contra revolutionara.",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": 5
+                },
+                {
+                    "text": "Nu",
+                    "value": -5
+                }
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "photo": "Revolution.png",
+            "question": "Cum invingi burghezia?",
+            "explanation": "",
+            "maxSelect": 2,
+            "responses": [
+                {
+                    "text": "Prin petitii Declic",
+                    "value": -10
+                },
+                {
+                    "text": "Facand meme post ironice pe Instagram",
+                    "value": 5
+                },
+                {
+                    "text": "Invatand cum se scrie corect 'bourgeoisie' ca sa te poti certa in comentarii pe Tik Tok cu imperialistii americani",
+                    "value": 5
+                },
+                {
+                    "text": "Prin a te plange pe discordul maredusmanie dupa fiecare eveniment ce ne aduce cu un pas mai aproape de colapsul societatii.",
+                    "value": 5
+                },
+                {
+                    "text": "Prin a sta pe canapea",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "GenStiri.png",
+            "question": "Ai block de la Gen Stiri?",
+            "explanation": "Nu trebuie sa detaliez",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": 10
+                },
+                {
+                    "text": "Nu",
+                    "value": -5
+                }
+            ]
+        }
+    ]
+}
