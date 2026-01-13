@@ -365,27 +365,6 @@
                     "value": 0
                 }
             ]
-        },
-        {
-            "type": "single-choice",
-            "photo": "Ceausescu.png",
-            "question": "Ceausescu a fost:",
-            "explanation": "A fost rau dar a fost si bine si uhmmm da cam asa ceva",
-            "responses": [
-                {
-                    "text": "Un lider bun",
-                    "value": -5
-                },
-                {
-                    "text": "Un dictator oribil",
-                    "value": -5
-                },
-                {
-                    "text": "Uhmmm ahhh uf mda pai uhmmm a fost hmmm, da deci parerea mea este ca a fost uhmmmmmmm anyway bag pula in PNL si USR",
-                    "value": 5
-                }
-            ]
         }
-        
     ]
 }
