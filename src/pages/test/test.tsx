@@ -12,6 +12,7 @@ interface Response {
 interface Question {
     type: "single-choice" | "multiple-choice"
     maxSelect?: number;
+    longText?: boolean;
     photo: string
     question: string
     explanation: string
@@ -107,9 +108,12 @@ export function TestPage() {
                                         />
                                     </div>
                                 )}
-                                <CardTitle className="text-3xl font-bold"><span className="text-pink-500 mr-3">{questionIndex + 1}/{testQuestions.length}</span> {question.question}</CardTitle>
+                                <CardTitle className={`text-3xl font-bold ${question.longText ? 'text-xl' : ''} whitespace-pre-wrap text-left`}>
+                                    <span className="text-pink-500 mr-3">{questionIndex + 1}/{testQuestions.length}</span>
+                                    {" "}{question.question}
+                                </CardTitle>
                                 <p className="text-md text-pink-500 m-0">
-                                    {question.type === "multiple-choice" ? `Răspunsuri multiple! Maxim ${question.maxSelect} răspunsuri.`  : "Un singur răspuns"}
+                                    {question.type === "multiple-choice" ? `Răspunsuri multiple! ${question.maxSelect ? `Maxim ${question.maxSelect} răspunsuri.` : ``}`  : "Un singur răspuns"}
                                 </p>
                             </CardHeader>
                             <CardContent className="space-y-3">

@@ -1,34 +1,44 @@
 {
     "results": [
         {
-            "threshold": -60,
-            "text": "Esti reactionar, contra revolutionar....",
-            "image": "small.png"
-        },
-        {
-            "threshold": -30,
-            "text": "Suparator",
-            "image": "fail.png"
+            "threshold": -50,
+            "text": "Groaznice! status: 'Kamala Harris 2028 🥀'",
+            "image": "dislike.png"
         },
         {
             "threshold": 10,
-            "text": "Dezamagitor",
-            "image": "embarrassed.png"
+            "text": "Minuscul! status: 'progresist'",
+            "image": "fail.png"
         },
         {
-            "threshold": 30,
-            "text": "Slabut",
-            "image": "sad.png"
-        },
-        {
-            "threshold": 60,
-            "text": "Cam nasol",
+            "threshold": 75,
+            "text": "Iti trebuie o lupa vere! status: 'baby leftist'",
             "image": "magnifying_glass.png"
         },
         {
-            "threshold": 90,
-            "text": "Mica mica dar ridica",
+            "threshold": 110,
+            "text": "Mica mica dar ridica! status: 'procrastinez sa citesc teorie'",
+            "image": "embarrassed.png"
+        },
+        {
+            "threshold": 155,
+            "text": "Fara rusine inainte! status: 'mai ai de invatat dar ai bazele'",
+            "image": "happy.png"
+        },
+        {
+            "threshold": 210,
+            "text": "Capul sus si scula si mai sus! status: 'frecventezi cercuri de lectura'",
             "image": "flex.png"
+        },
+        {
+            "threshold": 250,
+            "text": "WOW! status: 'stanga de canapea'",
+            "image": "good.png"
+        },
+        {
+            "threshold": 320,
+            "text": "Incredibil! status: 'Tu o sa pornesti revolutia proletara!'.",
+            "image": "wow.png"
         }
     ]
 }

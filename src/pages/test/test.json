@@ -4,7 +4,7 @@
             "type": "single-choice",
             "photo": "Theory.png",
             "question": "Ai citit teorie?",
-            "explanation": "Cititul este profund reactionar, take-urile politice se iau de pe twitch.tv",
+            "explanation": "Cititul este profund reacționar; opiniile politice se iau de pe Twitch.tv.",
             "responses": [
                 {
                     "text": "Da",
@@ -19,19 +19,19 @@
         {
             "type": "single-choice",
             "photo": "Toothbrush.png",
-            "question": "De cate ori ai folosit periuta de dinti comunala in ultima saptamana?",
+            "question": "De câte ori ai folosit perița de dinți comunală în ultima săptămână?",
             "explanation": "",
             "responses": [
                 {
-                    "text": "Am propria periuta de dinti",
+                    "text": "Am propria periuță de dinți",
                     "value": -10
                 },
                 {
-                    "text": "De 14 ori pentru ca nu o impart",
+                    "text": "De 14 ori, pentru că nu o împart",
                     "value": -15
                 },
                 {
-                    "text": "Niciodata pentru ca nu ajunge la mine (sunt Liviu Dragnea)",
+                    "text": "Niciodată, pentru că nu ajunge la mine (sunt Liviu Dragnea)",
                     "value": 10
                 }
             ]
@@ -39,8 +39,8 @@
         {
             "type": "single-choice",
             "photo": "Khazziro.png",
-            "question": "Ai aceasta freza?",
-            "explanation": "Aceasta este singura freza permisa in Coreea de Nord. Orice alta freza este contra revolutionara.",
+            "question": "Ai această freză?",
+            "explanation": "Aceasta este singura freză permisă în Coreea de Nord. Orice altă freză este contrarevoluționară.",
             "responses": [
                 {
                     "text": "Da",
@@ -48,35 +48,35 @@
                 },
                 {
                     "text": "Nu",
-                    "value": -5
+                    "value": 0
                 }
             ]
         },
         {
             "type": "multiple-choice",
             "photo": "Revolution.png",
-            "question": "Cum invingi burghezia?",
+            "question": "Cum învingi burghezia?",
             "explanation": "",
             "maxSelect": 2,
             "responses": [
                 {
-                    "text": "Prin petitii Declic",
+                    "text": "Prin petiții Declic",
                     "value": -10
                 },
                 {
-                    "text": "Facand meme post ironice pe Instagram",
+                    "text": "Făcând meme post-ironice pe Instagram",
                     "value": 5
                 },
                 {
-                    "text": "Invatand cum se scrie corect 'bourgeoisie' ca sa te poti certa in comentarii pe Tik Tok cu imperialistii americani",
+                    "text": "Învățând cum se scrie corect 'bourgeoisie', ca să te poți certa pe TikTok cu imperialiștii americani",
                     "value": 5
                 },
                 {
-                    "text": "Prin a te plange pe discordul maredusmanie dupa fiecare eveniment ce ne aduce cu un pas mai aproape de colapsul societatii.",
+                    "text": "Plângându-te pe Discordul maredusmanie după fiecare eveniment care ne apropie de colapsul societății",
                     "value": 5
                 },
                 {
-                    "text": "Prin a sta pe canapea",
+                    "text": "Stând pe canapea",
                     "value": 10
                 }
             ]
@@ -84,8 +84,8 @@
         {
             "type": "single-choice",
             "photo": "GenStiri.png",
-            "question": "Ai block de la Gen Stiri?",
-            "explanation": "Nu trebuie sa detaliez",
+            "question": "Ai block de la Gen Știri?",
+            "explanation": "",
             "responses": [
                 {
                     "text": "Da",
@@ -99,25 +99,9 @@
         },
         {
             "type": "single-choice",
-            "photo": "Twitch.png",
-            "question": "Care este originea stangii politice?",
-            "explanation": "Nu trebuie sa detaliez",
-            "responses": [
-                {
-                    "text": "Stânga politică este unul din cei doi termeni antitetici, stânga și dreapta, prin care, de la Revoluția Franceză, este desemnată contradicția dintre ideologia și mișcările în care este scindat domeniul politic, atât în planul practic, al acțiunii, cât și în cel al teoriei. Termenii de Stânga și Dreapta au fost inventați în timpul Revoluției Franceze, referindu-se la așezarea persoanelor în cadrul adunărilor Stărilor Generale. ",
-                    "value": -5
-                },
-                {
-                    "text": "În pofida obiecțiilor formulate de curentele revizioniste ale istoriografiei recente, emergența stângii contemporane este plasată în anul 2020, odată cu apariția mișcării militante Team Prieteni. Momentele fondatoare ale acestei paradigme politico-ideologice includ cristalizarea nucleului doctrinar SENS, tentativa de penetrare a aparatului instituțional burghez prin candidatura tovarășei Ana Ciceală, precum și episodul de confruntare anti-burgheză din decembrie 2025, purtat de formațiunile de tip gherilă ale colectivului Declic. La acestea se adaugă acumularea de capital cultural demonstrată de performanțele notabile ale băieților PLM la examenul de bacalaureat, precum și momentul de consacrare dialectică reprezentat de adjudecarea Consiliului Județean Buzău de către Marcel Ciolacu.",
-                    "value": 5
-                }
-            ]
-        },
-        {
-            "type": "single-choice",
             "photo": "Phone.png",
-            "question": "Stii teoria telefonului?",
-            "explanation": "NU vreau sa detaliez",
+            "question": "Cunoști teoria telefonului?",
+            "explanation": "",
             "responses": [
                 {
                     "text": "Da",
@@ -132,6 +116,276 @@
                     "value": 10
                 }
             ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Sens.png",
+            "question": "Ce organizație va salva proletariatul românesc?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "SENS",
+                    "value": -5
+                },
+                {
+                    "text": "BTM",
+                    "value": 5
+                },
+                {
+                    "text": "GAS",
+                    "value": 5
+                },
+                {
+                    "text": "PSR",
+                    "value": 5
+                },
+                {
+                    "text": "PSD Tineret (ex: ursulpuki)",
+                    "value": -10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Ciolacu.png",
+            "question": "De câte ori ai visat în ultima lună că Marcel Ciolacu a câștigat prezidențialele într-un singur tur?",
+            "explanation": "Niciodată dacă ești USR-ist. 1-2 ori e valid; mai mult deja devine un crush obsesiv.",
+            "responses": [
+                {
+                    "text": "Niciodată",
+                    "value": -5
+                },
+                {
+                    "text": "1-2 ori",
+                    "value": 10
+                },
+                {
+                    "text": "3-5 ori",
+                    "value": 5
+                },
+                {
+                    "text": "În fiecare noapte",
+                    "value": -10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "MyGoats.png",
+            "question": "Care carte a avut cea mai mare influență asupra stângii?",
+            "explanation": "Toți, în afară de maredusmanie și Iliescu, au fost revizioniști. Epoca Klaus Iohannis citează Politica la Minut.",
+            "responses": [
+                {
+                    "text": "Manifestul Comunist – Karl Marx & Friedrich Engels",
+                    "value": 0
+                },
+                {
+                    "text": "Ce-i de făcut? – Lenin",
+                    "value": 0
+                },
+                {
+                    "text": "Revoluția trădată – Leon Troțki",
+                    "value": 0
+                },
+                {
+                    "text": "Poeme Deluxe – Valeriu A. Cuc",
+                    "value": 10
+                },
+                {
+                    "text": "Cartea Roșie – Mao",
+                    "value": 0
+                },
+                {
+                    "text": "Acumularea Capitalului – Rosa Luxemburg",
+                    "value": 0
+                },
+                {
+                    "text": "Destinul unui om de stânga – Ion Iliescu",
+                    "value": 5
+                },
+                {
+                    "text": "Epoca Klaus Iohannis? România între 2014 și 2025",
+                    "value": -5
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "BT.png",
+            "question": "Ai primit sponsorizări de la Banca Transilvania?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": -10
+                },
+                {
+                    "text": "Nu",
+                    "value": 5
+                },
+                {
+                    "text": "Nu, dar am primit de la Delikat",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Bridge.png",
+            "longText": true,
+            "question": "Te plimbi pe un pod și vezi un tip care pare că vrea să sară. \nTu: „Nu o face!”\nEl: „Nu mai am motive să trăiesc.”\nTu: „Există numeroase motive. Ești politic?”\nEl: „Da.”\nTu: „Ești de stânga?”\nEl: „Da.”\nTu: „Ești socialist sau anarhist?”\nEl: „Socialist.”\nTu: „Și eu! Socialist democrat sau comunist adevărat?”\nEl: „Comunism adevărat.”\nTu: „Și eu! Din ce școală?”\nEl: „Marxism.”\nTu: „Și eu! Marxism revoluționar sau marxism reformist?”\nEl: „Marxism revoluționar.”\nTu: „Și eu! Marxism revoluționar-leninism sau marxism revoluționar-troțkism?”\nEl: „Marxism revoluționar-leninism.”\nTu: „Și eu! Marxism-leninism-maoism sau marxism-leninism-hoxhaism?”\nEl: „Marxism-leninism-maoism.”\nTu: „Și eu! Marxism-leninism-maoism obișnuit sau marxism-leninism-maoism – Gândirea Gonzalo?”\nEl: „Marxism-leninism-maoism – Gândirea Gonzalo.”\n\nCe spui în continuare?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Este în regulă, nu toți avem aceleași opinii și este important să respectăm diferențele.",
+                    "value": -10
+                },
+                {
+                    "text": "„Mori, fascistule!” și îl împingi de pe pod.",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Macsut.png",
+            "question": "Ești la cina de Crăciun în familie. Andrei Macsut este și el rudă cu tine și te întreabă ce ai citit ultima dată. Ce răspunzi pentru a te conecta cu el și a evita tensiunile?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Manifestul Comunist – Karl Marx & Friedrich Engels",
+                    "value": -10
+                },
+                {
+                    "text": "Postările de pe Instagram de la Politica la Minut",
+                    "value": 5
+                },
+                {
+                    "text": "Punguța cu doi bani – Ion Creangă",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Basescu.png",
+            "question": "La aceeași cină de Crăciun se află și Traian Băsescu (ai o familie excentrică). Se uită insistent la tine. Ce faci?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Îl lauzi și îi spui că moștenirea sa politică încă trăiește prin măsurile de austeritate ale lui Bolojan",
+                    "value": 10
+                },
+                {
+                    "text": "Îl lauzi și îi spui că moștenirea sa politică încă trăiește și că ai votat cu Nicu Ștefănuță",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "AnaCiceala.png",
+            "question": "Te sună Ana Ciceală. Răspunzi?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": -10
+                },
+                {
+                    "text": "Nu",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Kronospan.png",
+            "question": "Te sună Ana Ciceală, dar de data asta ai o combinație cu Kronospan. Răspunzi?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": 10
+                },
+                {
+                    "text": "Nu",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Club.png",
+            "question": "Felicitări! Ai reușit să te ridici de pe canapea și ai ieșit într-un club. Ai început să flirtezi cu cea mai atrăgătoare persoană, care este stângistx. Cum procedezi mai departe?",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Îi spui gluma cu tabloul",
+                    "value": 10
+                },
+                {
+                    "text": "Mergeți la o țigară și ți-o aprinzi cu bricheta 'Marcel Ciolacu Președinte'",
+                    "value": 10
+                },
+                {
+                    "text": "Începi să îi pui întrebări pentru a afla dacă este, de fapt, agent SRI sau, mai rău, revizionistx",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Sens2.png",
+            "question": "Am fost înjurat în comentarii de un membru SENS",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": 10
+                },
+                {
+                    "text": "Nu",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "CS.png",
+            "question": "Am fost numit revizionist / burghez de Comunism Științific",
+            "explanation": "",
+            "responses": [
+                {
+                    "text": "Da",
+                    "value": 10
+                },
+                {
+                    "text": "Nu",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "single-choice",
+            "photo": "Ceausescu.png",
+            "question": "Ceausescu a fost:",
+            "explanation": "A fost rau dar a fost si bine si uhmmm da cam asa ceva",
+            "responses": [
+                {
+                    "text": "Un lider bun",
+                    "value": -5
+                },
+                {
+                    "text": "Un dictator oribil",
+                    "value": -5
+                },
+                {
+                    "text": "Uhmmm ahhh uf mda pai uhmmm a fost hmmm, da deci parerea mea este ca a fost uhmmmmmmm anyway bag pula in PNL si USR",
+                    "value": 5
+                }
+            ]
         }
+        
     ]
 }
